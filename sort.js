@@ -1,12 +1,12 @@
-var sortNumber = function (nunber) {
-	number.sort(function (a,b) {
-		ig (a === b) {
-			return 0;
-		}
-		return a < b ? -1 : 1;
-	});
+var sortNumber = function (number) {
+   number.sort(function (a, b) {
+       if (a === b) {
+           return 0;
+       }
+       return a < b ? -1 : 1;
+   });
 };
 
-var number = [19, 3, 81, 1, 2 , 21];
-sortNumber(number);)
+var number = [19, 3, 81, 1, 24, 21];
+sortNumber(number);
 console.log(number);
